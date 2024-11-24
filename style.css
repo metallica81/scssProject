@@ -2,6 +2,7 @@
 /* Цвета шрифтов */
 /* Цвета фонов */
 /* Часто встречающиеся длины */
+/* Миксины для текста */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,9 +25,16 @@
   display: block;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 88px;
+  margin-bottom: -45px;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
 }
 
 /* меню нахождения машины по фильтрам */
+/* Переменные для фильтров машин */
+/* Миксины для фильтров */
 .find_car_params {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -39,9 +47,15 @@
   background-color: #ECEDED;
   border-radius: 8px;
   margin: 350px auto;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
 }
 .find_car_params span {
   width: 240px;
+  color: #6C6C6C;
+  font-weight: 400;
 }
 .find_car_params div {
   width: auto;
@@ -55,6 +69,21 @@
   width: 240px;
   height: 36px;
 }
+.carBrand select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.carBrand select option:not(first-child) {
+  color: black;
+}
+.carBrand select option:active {
+  border: none;
+  outline: none;
+}
 
 .carModel {
   display: flex;
@@ -63,6 +92,21 @@
 .carModel select {
   width: 240px;
   height: 36px;
+}
+.carModel select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.carModel select option:not(first-child) {
+  color: black;
+}
+.carModel select option:active {
+  border: none;
+  outline: none;
 }
 
 .transmissionType {
@@ -77,6 +121,15 @@
   display: flex;
   gap: 22px;
 }
+.transmissionType button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
 
 .costFrom {
   display: flex;
@@ -85,6 +138,21 @@
 .costFrom select {
   width: 240px;
   height: 36px;
+}
+.costFrom select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.costFrom select option:not(first-child) {
+  color: black;
+}
+.costFrom select option:active {
+  border: none;
+  outline: none;
 }
 
 .costUntil {
@@ -95,10 +163,34 @@
   width: 240px;
   height: 36px;
 }
+.costUntil select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.costUntil select option:not(first-child) {
+  color: black;
+}
+.costUntil select option:active {
+  border: none;
+  outline: none;
+}
 
 .showSuggesions button {
   width: 286px;
   height: 49px;
+}
+.showSuggesions button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(17, 140, 200, 0.8);
+  color: white;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
 }
 
 /* здесь буду писать примечания на следующую сессию

@@ -14,6 +14,16 @@ $governmentFinHelpColor: #EFF0F0;
 
 $borderRadius: 8px;
 
+/* Миксины для текста */
+@mixin fontHeaderOfText {
+    font: {
+        weight: 700;
+        size: 22px;
+        family: 'Oswald', sans-serif;
+    }
+    //letter-spacing: -1px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -42,6 +52,9 @@ $borderRadius: 8px;
     display: block;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 88px;
+    margin-bottom: -45px;
+    @include fontHeaderOfText;
 }
 
 // .img_car {
@@ -51,8 +64,71 @@ $borderRadius: 8px;
 // }
 
 /* меню нахождения машины по фильтрам */
+
+/* Переменные для фильтров машин */
 $buttonWidth: 240px;
 $buttonHeight: 36px;
+
+/* Миксины для фильтров */
+@mixin selectCarFilter {
+    select {
+        border: none;
+        outline: none;
+        border-radius: $borderRadius;
+        color: $buttonPlaceHolderColor;
+        option:not(first-child){
+            color: black;
+        }
+        option:active {
+            border: none;
+            outline: none;
+        }
+        font: {
+            weight: 400;
+        }
+        box-shadow: 0px 4px 10px 0px #9E9898;
+    }
+    
+}
+
+@mixin buttonCarFilter {
+    button {
+        border: none;
+        outline: none;
+        border-radius: $borderRadius;
+        color: $buttonPlaceHolderColor;
+        background-color: #fff;
+        font: {
+            weight: 400;
+        }
+        box-shadow: 0px 4px 10px 0px #9E9898;
+
+    }
+    
+}
+
+@mixin buttonCarFilterBlue {
+    button {
+        border: none;
+        outline: none;
+        border-radius: $borderRadius;
+        background-color: $giftRadialGradientColor;
+        color: white;
+        font: {
+            weight: 400;
+        }
+        box-shadow: 0px 4px 10px 0px #9E9898;
+    }
+}
+
+@mixin spanCarFilter {
+    color: $buttonPlaceHolderColor;
+    font: {
+        weight: 400;
+    }
+    //padding: 3px;
+
+}
 
 .find_car_params {
     display: grid;
@@ -62,6 +138,7 @@ $buttonHeight: 36px;
     row-gap: 20px;
     span {
         width: $buttonWidth;
+        @include spanCarFilter;
     }
     div {
         width:auto
@@ -72,6 +149,10 @@ $buttonHeight: 36px;
     background-color: $filterBGColor;
     border-radius: $borderRadius;
     margin: 350px auto;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 
 .carBrand {
@@ -81,6 +162,7 @@ $buttonHeight: 36px;
         width: $buttonWidth;
         height: $buttonHeight;
     }
+    @include selectCarFilter;
 }
 .carModel {
     display: flex;
@@ -89,6 +171,7 @@ $buttonHeight: 36px;
         width: $buttonWidth;
         height: $buttonHeight;
     }
+    @include selectCarFilter;
 }
 .transmissionType {
     display: flex;
@@ -101,6 +184,7 @@ $buttonHeight: 36px;
         display: flex;
         gap: 22px;
     }
+    @include buttonCarFilter;
 }
 .costFrom {
     display: flex;
@@ -109,6 +193,7 @@ $buttonHeight: 36px;
         width: $buttonWidth;
         height: $buttonHeight;
     }
+    @include selectCarFilter;
 }
 .costUntil {
     display: flex;
@@ -117,12 +202,15 @@ $buttonHeight: 36px;
         width: $buttonWidth;
         height: $buttonHeight;
     }
+    @include selectCarFilter;
 }
 .showSuggesions {
     button {
         width: 286px;
         height: 49px;
+        
     }
+    @include buttonCarFilterBlue;
 }
 
 
