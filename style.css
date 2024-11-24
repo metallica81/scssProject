@@ -25,8 +25,8 @@
   display: block;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 88px;
-  margin-bottom: -45px;
+  padding-top: 83px;
+  margin-bottom: -40px;
   font-weight: 700;
   font-size: 22px;
   font-family: "Oswald", sans-serif;
@@ -35,18 +35,22 @@
 /* меню нахождения машины по фильтрам */
 /* Переменные для фильтров машин */
 /* Миксины для фильтров */
+.wrapper {
+  width: 960px;
+  height: 200px;
+  margin: 350px auto;
+  background-color: #ECEDED;
+  border-radius: 8px;
+}
+
 .find_car_params {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 2;
   column-gap: 40px;
-  row-gap: 20px;
-  width: 960px;
-  height: 200px;
-  padding: 65px 35px;
-  background-color: #ECEDED;
-  border-radius: 8px;
-  margin: 350px auto;
+  row-gap: 22px;
+  padding-block: 35px;
+  padding-right: 18px;
   align-content: center;
   align-items: center;
   justify-items: center;
@@ -55,10 +59,11 @@
 .find_car_params span {
   width: 240px;
   color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
   font-weight: 400;
-}
-.find_car_params div {
-  width: auto;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
 }
 
 .carBrand {
@@ -76,6 +81,7 @@
   color: #6C6C6C;
   font-weight: 400;
   box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
 }
 .carBrand select option:not(first-child) {
   color: black;
@@ -100,6 +106,7 @@
   color: #6C6C6C;
   font-weight: 400;
   box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
 }
 .carModel select option:not(first-child) {
   color: black;
@@ -146,6 +153,7 @@
   color: #6C6C6C;
   font-weight: 400;
   box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
 }
 .costFrom select option:not(first-child) {
   color: black;
@@ -170,6 +178,7 @@
   color: #6C6C6C;
   font-weight: 400;
   box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
 }
 .costUntil select option:not(first-child) {
   color: black;
@@ -182,6 +191,10 @@
 .showSuggesions button {
   width: 286px;
   height: 49px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  margin-top: 11px;
+  margin-right: -5;
 }
 .showSuggesions button {
   border: none;

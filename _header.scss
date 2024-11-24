@@ -30,6 +30,7 @@ $borderRadius: 8px;
     font: {
         // family: "Oswald", serif;
         // family: "Red Hat Display", sans-serif;
+        // family: "Gilroymedium", sans-serif;
         family: "Inter", serif;
         weight: bold;
     }
@@ -52,8 +53,8 @@ $borderRadius: 8px;
     display: block;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 88px;
-    margin-bottom: -45px;
+    padding-top: 83px;
+    margin-bottom: -40px;
     @include fontHeaderOfText;
 }
 
@@ -87,6 +88,7 @@ $buttonHeight: 36px;
             weight: 400;
         }
         box-shadow: 0px 4px 10px 0px #9E9898;
+        padding-left: 12px;
     }
     
 }
@@ -124,31 +126,34 @@ $buttonHeight: 36px;
 @mixin spanCarFilter {
     color: $buttonPlaceHolderColor;
     font: {
+        family: "Gilroymedium", sans-serif;
         weight: 400;
+        size: 14px;
     }
-    //padding: 3px;
-
+    padding-left: 15px;
+    margin-bottom: 0;
 }
 
+.wrapper {
+    width: 960px;
+    height: 200px;
+    margin: 350px auto;
+    background-color: $filterBGColor;
+    border-radius: $borderRadius;
+}
 .find_car_params {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 2;
     column-gap: 40px;
-    row-gap: 20px;
+    row-gap: 22px;
     span {
         width: $buttonWidth;
         @include spanCarFilter;
     }
-    div {
-        width:auto
-    }
-    width: 960px;
-    height: 200px;
-    padding: 65px 35px;
-    background-color: $filterBGColor;
-    border-radius: $borderRadius;
-    margin: 350px auto;
+    padding-block: 35px;
+    padding-right: 18px;
+    //padding: auto auto;
     align-content: center;
     align-items: center;
     justify-items: center;
@@ -208,9 +213,13 @@ $buttonHeight: 36px;
     button {
         width: 286px;
         height: 49px;
-        
+        padding-right: 10px;
+        text-transform: uppercase;
+        margin-top: 11px;
+        margin-right: -5;
     }
     @include buttonCarFilterBlue;
+    
 }
 
 
