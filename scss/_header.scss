@@ -37,6 +37,11 @@ $borderRadius: 8px;
 }
 
 ._1thPage {
+    min-width: 1000px;
+    width: 100%;
+    height: 568px;
+}
+.upperBG {
     background: {
         image: url(assets/myPict/bg_2ndtry.jpg);
         size: cover;
@@ -44,16 +49,13 @@ $borderRadius: 8px;
         position: bottom;
         attachment: fixed;
     }
-    min-width: 1000px;
-    width: 100%;
     height: 456px;
 }
-
 .serch_new_auto {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 83px;
+    padding-top: 26px;
     margin-bottom: -40px;
     @include fontHeaderOfText;
 }
@@ -137,7 +139,7 @@ $buttonHeight: 36px;
 .wrapper {
     width: 960px;
     height: 200px;
-    margin: 350px auto;
+    margin: -88px auto;
     background-color: $filterBGColor;
     border-radius: $borderRadius;
 }
@@ -226,5 +228,6 @@ $buttonHeight: 36px;
 
 /* здесь буду писать примечания на следующую сессию
 - нужно не забыть про opacity 60
-- вернуться к воросу с машиной
-- после доведения фильтров подводим в px perfect */
+- вернуться к воросу с машиной 
+- стрелочка select
+*/

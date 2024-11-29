@@ -1,0 +1,233 @@
+@use 'header.scss';
+
+/* connectMenu */
+
+
+/* Миксины для шрифтов */
+@mixin fontRectNums {
+    font: {
+        size: 80px;
+        weight: 500;
+        family: 'Oswald', sans-serif;
+    }
+    color: white;
+    display: block;
+}
+
+@mixin fontRectText {
+    font: {
+        size: 18px;
+        weight: 500;
+        family: 'Oswald', sans-serif;
+    }
+    color: white;
+    text-transform: uppercase;
+    display: block;
+}
+
+@mixin fontRequest{
+    font: {
+        size: 24px;
+        weight: 700;
+        family: 'Inter', sans-serif;
+    }
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Параллелепипед */
+@mixin rectangleForm{
+    display: inline-block;
+    color: white;
+    opacity: 30%;
+    background: transparent;
+    border: 6px solid #FFFFFF;
+    transform: skewX(-25deg); /* Наклон фигуры */
+    width: 258px;
+    height: 131px;
+}
+
+/* Основные стили */
+.lendingRequest {
+    height: 440px;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 93px;
+}
+.wrapperRectangleBG {
+    height: 393px;
+    width: 100%;
+    background: {
+        image: url(/assets/myPict/personal.png);
+        size: cover;
+        repeat: no-repeat;
+        position: bottom;
+        color: #3535358C;
+        //attachment: fixed;
+    };
+    position: relative;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    //filter: brightness(0.2) contrast(1) grayscale(30%) opacity(0.55) saturate(30%);
+}
+
+.renctangle {
+    display: flex;
+    gap: 102px;
+    width: 1035px;
+    margin: auto;
+    padding-top: 69px;
+}
+.rectangle {
+    @include rectangleForm;
+}
+.rectWrapper1 {
+    span:nth-of-type(1) {
+        @include fontRectNums;
+        margin-left: -26px;
+        margin-top: -197px;
+    }
+    span:nth-of-type(2) {
+        @include fontRectText;
+        margin-left: 61px;
+        margin-top: -23px;
+    }
+}
+
+.rectWrapper2 {
+    span:nth-of-type(1) {
+        @include fontRectNums;
+        margin-left: -26px;
+        margin-top: -197px;
+    }
+    span:nth-of-type(2) {
+        @include fontRectText;
+        margin-left: 61px;
+        margin-top: -23px;
+    }
+}
+
+.rectWrapper3 {
+    span:nth-of-type(1) {
+        @include fontRectNums;
+        margin-left: -26px;
+        margin-top: -197px;
+    }
+    span:nth-of-type(2) {
+        @include fontRectText;
+        margin-left: 61px;
+        margin-top: -23px;
+    }
+}
+
+.requestSpan {
+    @include fontRequest;
+    display: block;
+    text-align: center;
+    margin-top: 56px;
+    font-weight: 1000;
+}
+
+/* Форма связи */
+.lendingRequest .wrapper {
+    width: 960px;
+    height: 156px;
+    margin: -110px auto;
+    background-color: header.$filterBGColor;
+    border-radius: header.$borderRadius;
+}
+
+/* Размеры кнопок */
+$widthsmallInput: 240px;
+$heightsmallInput: 45px;
+$widthBigButton: 286px;
+$heightBigButton: 60px;
+
+/* Миксины для кнопок */
+@mixin connectInputButton {
+    border: none;
+    outline: none;
+    border-radius: header.$borderRadius;
+    color: header.$buttonPlaceHolderColor;
+    background-color: #fff;
+    font: {
+        weight: 400;
+    }
+    box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.connectForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 18px;
+    padding-top: 33px;
+    height: 158px;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 40px;
+    span {
+        @include header.spanCarFilter;
+        color: #484848;
+    }
+    input {
+        @include connectInputButton;
+        width: $widthsmallInput;
+        height: $heightsmallInput
+    }
+    input::placeholder {
+        padding-left: 17px;
+    }
+    button {
+        @include connectInputButton;
+        width: $widthBigButton;
+        height: $heightBigButton;
+        background-color: header.$giftRadialGradientColor;
+    }
+}
+.nameBlock {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    
+}
+.phoneBlock {
+    span {
+        @include header.spanCarFilter;
+        color: #484848;
+    }
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+}
+.sendRequest {
+    @include fontRectText;
+    font-family: 'Inter', sans-serif;
+    color: white !important;
+    
+}
+.wrapperRequest {
+    span {
+        @include header.spanCarFilter;
+        color: #939191;
+        font-size: 9px;
+        letter-spacing: 0;
+        ul {
+            margin-top: -13px;
+            margin-left: -20px;
+            li {
+                list-style-type: square;
+            }
+            li::marker {
+                font-size: 18px;
+            }
+        }
+    }
+    padding-top: 12px;
+    font-weight: 500;
+    
+}
+
+/*
+- фильтр фонового изображения
+*/

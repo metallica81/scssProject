@@ -11,13 +11,17 @@
 }
 
 ._1thPage {
+  min-width: 1000px;
+  width: 100%;
+  height: 568px;
+}
+
+.upperBG {
   background-image: url(assets/myPict/bg_2ndtry.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   background-attachment: fixed;
-  min-width: 1000px;
-  width: 100%;
   height: 456px;
 }
 
@@ -25,7 +29,7 @@
   display: block;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 83px;
+  padding-top: 26px;
   margin-bottom: -40px;
   font-weight: 700;
   font-size: 22px;
@@ -38,7 +42,7 @@
 .wrapper {
   width: 960px;
   height: 200px;
-  margin: 350px auto;
+  margin: -88px auto;
   background-color: #ECEDED;
   border-radius: 8px;
 }
@@ -208,5 +212,474 @@
 
 /* здесь буду писать примечания на следующую сессию
 - нужно не забыть про opacity 60
-- вернуться к воросу с машиной
-- после доведения фильтров подводим в px perfect *//*# sourceMappingURL=style.css.map */
+- вернуться к воросу с машиной 
+- стрелочка select
+*/
+/* Цвета шрифтов */
+/* Цвета фонов */
+/* Часто встречающиеся длины */
+/* Миксины для текста */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", serif;
+  font-weight: bold;
+}
+
+._1thPage {
+  min-width: 1000px;
+  width: 100%;
+  height: 568px;
+}
+
+.upperBG {
+  background-image: url(assets/myPict/bg_2ndtry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 456px;
+}
+
+.serch_new_auto {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 26px;
+  margin-bottom: -40px;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* меню нахождения машины по фильтрам */
+/* Переменные для фильтров машин */
+/* Миксины для фильтров */
+.wrapper {
+  width: 960px;
+  height: 200px;
+  margin: -88px auto;
+  background-color: #ECEDED;
+  border-radius: 8px;
+}
+
+.find_car_params {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 2;
+  column-gap: 40px;
+  row-gap: 22px;
+  padding-block: 35px;
+  padding-right: 18px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.find_car_params span {
+  width: 240px;
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.carBrand {
+  display: flex;
+  flex-direction: column;
+}
+
+.carBrand select {
+  width: 240px;
+  height: 36px;
+}
+
+.carBrand select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.carBrand select option:not(first-child) {
+  color: black;
+}
+
+.carBrand select option:active {
+  border: none;
+  outline: none;
+}
+
+.carModel {
+  display: flex;
+  flex-direction: column;
+}
+
+.carModel select {
+  width: 240px;
+  height: 36px;
+}
+
+.carModel select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.carModel select option:not(first-child) {
+  color: black;
+}
+
+.carModel select option:active {
+  border: none;
+  outline: none;
+}
+
+.transmissionType {
+  display: flex;
+  flex-direction: column;
+}
+
+.transmissionType button {
+  width: 80px;
+  height: 36px;
+}
+
+.transmissionType .transButtons {
+  display: flex;
+  gap: 22px;
+}
+
+.transmissionType button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+
+.costFrom {
+  display: flex;
+  flex-direction: column;
+}
+
+.costFrom select {
+  width: 240px;
+  height: 36px;
+}
+
+.costFrom select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.costFrom select option:not(first-child) {
+  color: black;
+}
+
+.costFrom select option:active {
+  border: none;
+  outline: none;
+}
+
+.costUntil {
+  display: flex;
+  flex-direction: column;
+}
+
+.costUntil select {
+  width: 240px;
+  height: 36px;
+}
+
+.costUntil select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.costUntil select option:not(first-child) {
+  color: black;
+}
+
+.costUntil select option:active {
+  border: none;
+  outline: none;
+}
+
+.showSuggesions button {
+  width: 286px;
+  height: 49px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  margin-top: 11px;
+  margin-right: -5;
+}
+
+.showSuggesions button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(17, 140, 200, 0.8);
+  color: white;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+
+/* здесь буду писать примечания на следующую сессию
+- нужно не забыть про opacity 60
+- вернуться к воросу с машиной 
+- стрелочка select
+*/
+/* connectMenu */
+/* Миксины для шрифтов */
+/* Параллелепипед */
+/* Основные стили */
+.lendingRequest {
+  height: 440px;
+  width: 100%;
+  min-width: 1000px;
+  margin-top: 93px;
+}
+
+.wrapperRectangleBG {
+  height: 393px;
+  width: 100%;
+  background-image: url(/assets/myPict/personal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgba(53, 53, 53, 0.5490196078);
+  position: relative;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+.renctangle {
+  display: flex;
+  gap: 102px;
+  width: 1035px;
+  margin: auto;
+  padding-top: 69px;
+}
+
+.rectangle {
+  display: inline-block;
+  color: white;
+  opacity: 30%;
+  background: transparent;
+  border: 6px solid #FFFFFF;
+  transform: skewX(-25deg); /* Наклон фигуры */
+  width: 258px;
+  height: 131px;
+}
+
+.rectWrapper1 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+.rectWrapper1 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.rectWrapper2 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+.rectWrapper2 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.rectWrapper3 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+.rectWrapper3 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.requestSpan {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-top: 56px;
+  font-weight: 1000;
+}
+
+/* Форма связи */
+.lendingRequest .wrapper {
+  width: 960px;
+  height: 156px;
+  margin: -110px auto;
+  background-color: #ECEDED;
+  border-radius: 8px;
+}
+
+/* Размеры кнопок */
+/* Миксины для кнопок */
+.connectForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 18px;
+  padding-top: 33px;
+  height: 158px;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 40px;
+}
+.connectForm span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #484848;
+}
+.connectForm input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  width: 240px;
+  height: 45px;
+}
+.connectForm input::placeholder {
+  padding-left: 17px;
+}
+.connectForm button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  width: 286px;
+  height: 60px;
+  background-color: rgba(17, 140, 200, 0.8);
+}
+
+.nameBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneBlock {
+  display: flex;
+  flex-direction: column;
+}
+.phoneBlock span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #484848;
+}
+
+.sendRequest {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Inter", sans-serif;
+  color: white !important;
+}
+
+.wrapperRequest {
+  padding-top: 12px;
+  font-weight: 500;
+}
+.wrapperRequest span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #939191;
+  font-size: 9px;
+  letter-spacing: 0;
+}
+.wrapperRequest span ul {
+  margin-top: -13px;
+  margin-left: -20px;
+}
+.wrapperRequest span ul li {
+  list-style-type: square;
+}
+.wrapperRequest span ul li::marker {
+  font-size: 18px;
+}
+
+/*
+- фильтр фонового изображения
+*//*# sourceMappingURL=style.css.map */
