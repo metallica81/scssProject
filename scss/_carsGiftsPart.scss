@@ -1,0 +1,161 @@
+@use 'header.scss';
+@use 'lendingRequest.scss';
+
+/* 3rd page - conditions of credit */
+
+/* variables */
+$gridWidth: 536px;
+$gridHeight: 397px;
+
+/* extends */
+%h3-style {
+    h3 {
+        color: white;
+        font: {
+            weight: 700;
+            size: 40px;
+        }
+        letter-spacing: 1.1px;
+    }
+}
+%p-style {
+    p {
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+    }
+}
+%button-style {
+    button {
+        background-color: transparent;
+        border: 2.5px solid white;
+        border-radius: header.$borderRadius;
+        text-transform: uppercase;
+        font: {
+            size: 16px;
+            weight: 500;
+        }
+        width: 170px;
+        height: 50px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+/* all properties */
+.conditionsBlock {
+    display: grid;
+    grid-template-columns: $gridWidth $gridWidth;
+    grid-template-rows: repeat(3, $gridHeight);
+    grid-row-gap: 35px;
+    grid-column-gap: 36px;
+    grid-template-areas: 
+        "a a"
+        "b c"
+        "b d";
+    margin: 154px auto 0 auto;
+    width: 1110px;
+    height: 1262px;
+    .wrapper {
+        margin: 0;
+    }
+}
+.conditionsBlock .wrapper:nth-of-type(1) {
+    margin: 0 0 0 -4px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 1110px;
+    height: $gridHeight;
+    grid-area: a;
+    background: {
+        color: header.$giftRadialGradientColor;
+        image: url('assets/conditions/gift.png');
+        repeat: no-repeat;
+        position: 99% 89%;
+    }
+    @extend %button-style;
+    @extend %p-style;
+    @extend %h3-style;
+    padding: 51px 51px;
+}
+.conditionsBlock .wrapper:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    grid-area: b;
+    width: $gridWidth;
+    height: 830px;
+    @extend %button-style;
+    @extend %p-style;
+    @extend %h3-style;
+    button, p, h3 {
+        color: header.$governHelpColor;   
+    }
+    h3 {
+        letter-spacing: 1.5px;
+    }
+    p {
+        letter-spacing: 0.6px;
+    }
+    button {
+        border: 2.5px solid header.$governHelpColor;
+    }
+    padding: 41px 49px;
+    background: {
+        image: url('assets/conditions/womanPercent.png');
+        repeat: no-repeat;
+        position: -4% 100%;
+    }
+}
+.conditionsBlock .wrapper:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    grid-area: c;
+    background: {
+        color: header.$giftRadialGradientColor;
+        image: url('assets/conditions/percent0.png');
+        repeat: no-repeat;
+        position: 100% 100%;
+    }
+    width: $gridWidth;
+    height: $gridHeight;
+    @extend %button-style;
+    @extend %p-style;
+    @extend %h3-style;
+    padding: 45px 48px;
+    h3 {
+        letter-spacing: 1.4px;
+    }
+    p {
+        letter-spacing: 0.1px;
+    }
+}
+.conditionsBlock .wrapper:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    grid-area: d;
+    width: $gridWidth;
+    height: $gridHeight;
+    background: {
+        color: header.$giftRadialGradientColor;
+        image: url('assets/conditions/taxi.png');
+        repeat: no-repeat;
+        position: 100% 100%;
+    }
+    width: $gridWidth;
+    height: $gridHeight;
+    @extend %button-style;
+    @extend %p-style;
+    @extend %h3-style;
+    padding: 45px 48px;
+    h3 {
+        letter-spacing: 1.4px;
+    }
+    p {
+        letter-spacing: 0.1px;
+    }
+}
