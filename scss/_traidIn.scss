@@ -1,0 +1,84 @@
+@use 'header.scss';
+@use 'lendingRequest.scss';
+@use 'carsGiftsPart.scss';
+@use 'comments.scss';
+
+/* traid-in page */
+
+.traid_in {
+    .wrapper {
+        background-color: transparent;
+    }
+    height: 678px;
+    margin: 179px auto 90px auto;
+    width: 1110px;
+    h1 {
+        font-size: 25px;
+    }
+    .upperBG {
+        background-image: url('../assets/traid-in/carTraid.png') !important;
+
+    }
+    .find_car_params {
+        grid-template-rows: auto auto auto;
+        border-radius: header.$borderRadius;
+        background-color: header.$giftRadialGradientColor;
+        .name {
+            display: flex;
+            flex-direction: column;
+        }
+        .phoneBlock {
+            span {
+                @include header.spanCarFilter;
+                color: white;
+            }
+            input {
+                @include connectInputButton;
+                width: header.$buttonWidth;
+                height: $buttonHeight;
+                box-shadow: none;
+            }
+            input::placeholder {
+                padding-left: 17px;
+            }
+            display: flex;
+            flex-direction: column;
+        }
+        .name {
+            span {
+                @include header.spanCarFilter;
+                color: white;
+            }
+            input {
+                @include connectInputButton;
+                width: header.$buttonWidth;
+                height: $buttonHeight;
+                box-shadow: none;
+            }
+            input::placeholder {
+                padding-left: 17px;
+            }
+            display: flex;
+            flex-direction: column;
+        }
+        select {
+            box-shadow: none;
+        }
+        span {
+            color: white;
+        }
+        
+    }
+    .wait {
+        margin: 10px 0;
+        width: 286px;
+        height: 68px;
+        border-radius: $borderRadius;
+        border: 3px solid white;
+        background-color: transparent;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        grid-column: span 3;
+    }
+}

@@ -171,7 +171,7 @@ $heightBigButton: 60px;
     input {
         @include connectInputButton;
         width: $widthsmallInput;
-        height: $heightsmallInput
+        height: $heightsmallInput;
     }
     input::placeholder {
         padding-left: 17px;
