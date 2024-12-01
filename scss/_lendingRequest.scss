@@ -58,7 +58,7 @@
     height: 393px;
     width: 100%;
     background: {
-        image: url(../assets/myPict/personal.png);
+        image: url(assets/myPict/personal.png);
         size: cover;
         repeat: no-repeat;
         position: bottom;
@@ -187,9 +187,6 @@ $heightBigButton: 60px;
     display: flex;
     flex-direction: column;
 }
-.name {
-    
-}
 .phoneBlock {
     span {
         @include header.spanCarFilter;
@@ -197,8 +194,6 @@ $heightBigButton: 60px;
     }
     display: flex;
     flex-direction: column;
-}
-.phone {
 }
 .sendRequest {
     @include fontRectText;

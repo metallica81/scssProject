@@ -18,7 +18,7 @@
 }
 
 .upperBG {
-  background-image: url(../assets/myPict/bmw330.jpg);
+  background-image: url(assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 92%;
@@ -234,7 +234,7 @@
 }
 
 .upperBG {
-  background-image: url(../assets/myPict/bmw330.jpg);
+  background-image: url(assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 92%;
@@ -466,7 +466,7 @@
 .wrapperRectangleBG {
   height: 393px;
   width: 100%;
-  background-image: url(../assets/myPict/personal.png);
+  background-image: url(assets/myPict/personal.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -702,7 +702,7 @@
 }
 
 .upperBG {
-  background-image: url(../assets/myPict/bmw330.jpg);
+  background-image: url(assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 92%;
@@ -934,7 +934,7 @@
 .wrapperRectangleBG {
   height: 393px;
   width: 100%;
-  background-image: url(../assets/myPict/personal.png);
+  background-image: url(assets/myPict/personal.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1310,7 +1310,7 @@
 }
 
 .upperBG {
-  background-image: url(../assets/myPict/bmw330.jpg);
+  background-image: url(assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 92%;
@@ -1542,7 +1542,7 @@
 .wrapperRectangleBG {
   height: 393px;
   width: 100%;
-  background-image: url(../assets/myPict/personal.png);
+  background-image: url(assets/myPict/personal.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2009,6 +2009,7 @@
 }
 .wrapperComment .assessment {
   display: flex;
+  align-items: center;
   margin: 74px 19px;
   gap: 33px;
 }
