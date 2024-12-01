@@ -2809,7 +2809,7 @@
   font-size: 25px;
 }
 .traid_in .upperBG {
-  background-image: url("../assets/traid-in/carTraid.png") !important;
+  background-image: url("assets/traid-in/carTraid.png") !important;
 }
 .traid_in .find_car_params {
   grid-template-rows: auto auto auto;
