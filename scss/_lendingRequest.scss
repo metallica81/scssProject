@@ -50,15 +50,15 @@
 /* Основные стили */
 .lendingRequest {
     height: 440px;
-    width: 100%;
+    width: 1110px;
     min-width: 1000px;
-    margin-top: 93px;
+    margin: 93px auto 0 auto;
 }
 .wrapperRectangleBG {
     height: 393px;
     width: 100%;
     background: {
-        image: url(/assets/myPict/personal.png);
+        image: url(../assets/myPict/personal.png);
         size: cover;
         repeat: no-repeat;
         position: bottom;
@@ -153,7 +153,7 @@ $heightBigButton: 60px;
     font: {
         weight: 400;
     }
-    box-shadow: 0px 4px 10px 0px #9E9898;
+    box-shadow: header.$boxShadow;
 }
 .connectForm {
     display: flex;

@@ -12,16 +12,16 @@
 
 ._1thPage {
   min-width: 1000px;
-  width: 100%;
+  width: 1110px;
   height: 568px;
+  margin: auto;
 }
 
 .upperBG {
-  background-image: url(assets/myPict/bg_2ndtry.jpg);
+  background-image: url(../assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  background-position: 100% 92%;
   height: 456px;
 }
 
@@ -39,7 +39,7 @@
 /* меню нахождения машины по фильтрам */
 /* Переменные для фильтров машин */
 /* Миксины для фильтров */
-.wrapper {
+.wrapper, .wrapperComment .vadim, .wrapperComment {
   width: 960px;
   height: 200px;
   margin: -88px auto;
@@ -228,16 +228,16 @@
 
 ._1thPage {
   min-width: 1000px;
-  width: 100%;
+  width: 1110px;
   height: 568px;
+  margin: auto;
 }
 
 .upperBG {
-  background-image: url(assets/myPict/bg_2ndtry.jpg);
+  background-image: url(../assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  background-position: 100% 92%;
   height: 456px;
 }
 
@@ -255,7 +255,7 @@
 /* меню нахождения машины по фильтрам */
 /* Переменные для фильтров машин */
 /* Миксины для фильтров */
-.wrapper {
+.wrapper, .wrapperComment .vadim, .wrapperComment {
   width: 960px;
   height: 200px;
   margin: -88px auto;
@@ -458,15 +458,15 @@
 /* Основные стили */
 .lendingRequest {
   height: 440px;
-  width: 100%;
+  width: 1110px;
   min-width: 1000px;
-  margin-top: 93px;
+  margin: 93px auto 0 auto;
 }
 
 .wrapperRectangleBG {
   height: 393px;
   width: 100%;
-  background-image: url(/assets/myPict/personal.png);
+  background-image: url(../assets/myPict/personal.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -568,7 +568,7 @@
 }
 
 /* Форма связи */
-.lendingRequest .wrapper {
+.lendingRequest .wrapper, .lendingRequest .wrapperComment .vadim, .wrapperComment .lendingRequest .vadim, .lendingRequest .wrapperComment {
   width: 960px;
   height: 156px;
   margin: -110px auto;
@@ -696,16 +696,16 @@
 
 ._1thPage {
   min-width: 1000px;
-  width: 100%;
+  width: 1110px;
   height: 568px;
+  margin: auto;
 }
 
 .upperBG {
-  background-image: url(assets/myPict/bg_2ndtry.jpg);
+  background-image: url(../assets/myPict/bmw330.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  background-position: 100% 92%;
   height: 456px;
 }
 
@@ -723,7 +723,7 @@
 /* меню нахождения машины по фильтрам */
 /* Переменные для фильтров машин */
 /* Миксины для фильтров */
-.wrapper {
+.wrapper, .wrapperComment .vadim, .wrapperComment {
   width: 960px;
   height: 200px;
   margin: -88px auto;
@@ -926,15 +926,15 @@
 /* Основные стили */
 .lendingRequest {
   height: 440px;
-  width: 100%;
+  width: 1110px;
   min-width: 1000px;
-  margin-top: 93px;
+  margin: 93px auto 0 auto;
 }
 
 .wrapperRectangleBG {
   height: 393px;
   width: 100%;
-  background-image: url(/assets/myPict/personal.png);
+  background-image: url(../assets/myPict/personal.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1039,7 +1039,7 @@
 }
 
 /* Форма связи */
-.lendingRequest .wrapper {
+.lendingRequest .wrapper, .lendingRequest .wrapperComment .vadim, .wrapperComment .lendingRequest .vadim, .lendingRequest .wrapperComment {
   width: 960px;
   height: 156px;
   margin: -110px auto;
@@ -1166,21 +1166,21 @@
 /* 3rd page - conditions of credit */
 /* variables */
 /* extends */
-.conditionsBlock .wrapper:nth-of-type(4) h3, .conditionsBlock .wrapper:nth-of-type(3) h3, .conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapper:nth-of-type(1) h3 {
+.conditionsBlock .wrapper:nth-of-type(4) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) h3, .conditionsBlock .wrapperComment:nth-of-type(4) h3, .conditionsBlock .wrapper:nth-of-type(3) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) h3, .conditionsBlock .wrapperComment:nth-of-type(3) h3, .conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3, .conditionsBlock .wrapper:nth-of-type(1) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) h3, .conditionsBlock .wrapperComment:nth-of-type(1) h3 {
   color: white;
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 1.1px;
 }
 
-.conditionsBlock .wrapper:nth-of-type(4) p, .conditionsBlock .wrapper:nth-of-type(3) p, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(1) p {
+.conditionsBlock .wrapper:nth-of-type(4) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) p, .conditionsBlock .wrapperComment:nth-of-type(4) p, .conditionsBlock .wrapper:nth-of-type(3) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) p, .conditionsBlock .wrapperComment:nth-of-type(3) p, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(1) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) p, .conditionsBlock .wrapperComment:nth-of-type(1) p {
   color: white;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 1.1px;
 }
 
-.conditionsBlock .wrapper:nth-of-type(4) button, .conditionsBlock .wrapper:nth-of-type(3) button, .conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(1) button {
+.conditionsBlock .wrapper:nth-of-type(4) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) button, .conditionsBlock .wrapperComment:nth-of-type(4) button, .conditionsBlock .wrapper:nth-of-type(3) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) button, .conditionsBlock .wrapperComment:nth-of-type(3) button, .conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(1) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) button, .conditionsBlock .wrapperComment:nth-of-type(1) button {
   background-color: transparent;
   border: 2.5px solid white;
   border-radius: 8px;
@@ -1205,11 +1205,11 @@
   width: 1110px;
   height: 1262px;
 }
-.conditionsBlock .wrapper {
+.conditionsBlock .wrapper, .conditionsBlock .wrapperComment .vadim, .wrapperComment .conditionsBlock .vadim, .conditionsBlock .wrapperComment {
   margin: 0;
 }
 
-.conditionsBlock .wrapper:nth-of-type(1) {
+.conditionsBlock .wrapper:nth-of-type(1), .conditionsBlock .wrapperComment .vadim:nth-of-type(1), .wrapperComment .conditionsBlock .vadim:nth-of-type(1), .conditionsBlock .wrapperComment:nth-of-type(1) {
   margin: 0 0 0 -4px;
   display: flex;
   flex-direction: column;
@@ -1224,7 +1224,7 @@
   padding: 51px 51px;
 }
 
-.conditionsBlock .wrapper:nth-of-type(2) {
+.conditionsBlock .wrapper:nth-of-type(2), .conditionsBlock .wrapperComment .vadim:nth-of-type(2), .wrapperComment .conditionsBlock .vadim:nth-of-type(2), .conditionsBlock .wrapperComment:nth-of-type(2) {
   display: flex;
   flex-direction: column;
   gap: 29px;
@@ -1236,20 +1236,20 @@
   background-repeat: no-repeat;
   background-position: -4% 100%;
 }
-.conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(2) h3 {
+.conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3 {
   color: #4A4A4A;
 }
-.conditionsBlock .wrapper:nth-of-type(2) h3 {
+.conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3 {
   letter-spacing: 1.5px;
 }
-.conditionsBlock .wrapper:nth-of-type(2) p {
+.conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(2) p {
   letter-spacing: 0.6px;
 }
-.conditionsBlock .wrapper:nth-of-type(2) button {
+.conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(2) button {
   border: 2.5px solid #4A4A4A;
 }
 
-.conditionsBlock .wrapper:nth-of-type(3) {
+.conditionsBlock .wrapper:nth-of-type(3), .conditionsBlock .wrapperComment .vadim:nth-of-type(3), .wrapperComment .conditionsBlock .vadim:nth-of-type(3), .conditionsBlock .wrapperComment:nth-of-type(3) {
   display: flex;
   flex-direction: column;
   gap: 29px;
@@ -1262,14 +1262,14 @@
   height: 397px;
   padding: 45px 48px;
 }
-.conditionsBlock .wrapper:nth-of-type(3) h3 {
+.conditionsBlock .wrapper:nth-of-type(3) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) h3, .conditionsBlock .wrapperComment:nth-of-type(3) h3 {
   letter-spacing: 1.4px;
 }
-.conditionsBlock .wrapper:nth-of-type(3) p {
+.conditionsBlock .wrapper:nth-of-type(3) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) p, .conditionsBlock .wrapperComment:nth-of-type(3) p {
   letter-spacing: 0.1px;
 }
 
-.conditionsBlock .wrapper:nth-of-type(4) {
+.conditionsBlock .wrapper:nth-of-type(4), .conditionsBlock .wrapperComment .vadim:nth-of-type(4), .wrapperComment .conditionsBlock .vadim:nth-of-type(4), .conditionsBlock .wrapperComment:nth-of-type(4) {
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -1284,9 +1284,748 @@
   height: 397px;
   padding: 45px 48px;
 }
-.conditionsBlock .wrapper:nth-of-type(4) h3 {
+.conditionsBlock .wrapper:nth-of-type(4) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) h3, .conditionsBlock .wrapperComment:nth-of-type(4) h3 {
   letter-spacing: 1.4px;
 }
-.conditionsBlock .wrapper:nth-of-type(4) p {
+.conditionsBlock .wrapper:nth-of-type(4) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) p, .conditionsBlock .wrapperComment:nth-of-type(4) p {
   letter-spacing: 0.1px;
+}
+
+/* Цвета шрифтов */
+/* Цвета фонов */
+/* Часто встречающиеся длины */
+/* Миксины для текста */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", serif;
+  font-weight: bold;
+}
+
+._1thPage {
+  min-width: 1000px;
+  width: 1110px;
+  height: 568px;
+  margin: auto;
+}
+
+.upperBG {
+  background-image: url(../assets/myPict/bmw330.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 92%;
+  height: 456px;
+}
+
+.serch_new_auto {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 26px;
+  margin-bottom: -40px;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* меню нахождения машины по фильтрам */
+/* Переменные для фильтров машин */
+/* Миксины для фильтров */
+.wrapper, .wrapperComment, .wrapperComment .vadim {
+  width: 960px;
+  height: 200px;
+  margin: -88px auto;
+  background-color: #ECEDED;
+  border-radius: 8px;
+}
+
+.find_car_params {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 2;
+  column-gap: 40px;
+  row-gap: 22px;
+  padding-block: 35px;
+  padding-right: 18px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.find_car_params span {
+  width: 240px;
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.carBrand {
+  display: flex;
+  flex-direction: column;
+}
+
+.carBrand select {
+  width: 240px;
+  height: 36px;
+}
+
+.carBrand select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.carBrand select option:not(first-child) {
+  color: black;
+}
+
+.carBrand select option:active {
+  border: none;
+  outline: none;
+}
+
+.carModel {
+  display: flex;
+  flex-direction: column;
+}
+
+.carModel select {
+  width: 240px;
+  height: 36px;
+}
+
+.carModel select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.carModel select option:not(first-child) {
+  color: black;
+}
+
+.carModel select option:active {
+  border: none;
+  outline: none;
+}
+
+.transmissionType {
+  display: flex;
+  flex-direction: column;
+}
+
+.transmissionType button {
+  width: 80px;
+  height: 36px;
+}
+
+.transmissionType .transButtons {
+  display: flex;
+  gap: 22px;
+}
+
+.transmissionType button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+
+.costFrom {
+  display: flex;
+  flex-direction: column;
+}
+
+.costFrom select {
+  width: 240px;
+  height: 36px;
+}
+
+.costFrom select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.costFrom select option:not(first-child) {
+  color: black;
+}
+
+.costFrom select option:active {
+  border: none;
+  outline: none;
+}
+
+.costUntil {
+  display: flex;
+  flex-direction: column;
+}
+
+.costUntil select {
+  width: 240px;
+  height: 36px;
+}
+
+.costUntil select {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding-left: 12px;
+}
+
+.costUntil select option:not(first-child) {
+  color: black;
+}
+
+.costUntil select option:active {
+  border: none;
+  outline: none;
+}
+
+.showSuggesions button {
+  width: 286px;
+  height: 49px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  margin-top: 11px;
+  margin-right: -5;
+}
+
+.showSuggesions button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(17, 140, 200, 0.8);
+  color: white;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+
+/* здесь буду писать примечания на следующую сессию
+- нужно не забыть про opacity 60
+- вернуться к воросу с машиной 
+- стрелочка select
+*/
+/* connectMenu */
+/* Миксины для шрифтов */
+/* Параллелепипед */
+/* Основные стили */
+.lendingRequest {
+  height: 440px;
+  width: 1110px;
+  min-width: 1000px;
+  margin: 93px auto 0 auto;
+}
+
+.wrapperRectangleBG {
+  height: 393px;
+  width: 100%;
+  background-image: url(../assets/myPict/personal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgba(53, 53, 53, 0.5490196078);
+  position: relative;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+.renctangle {
+  display: flex;
+  gap: 102px;
+  width: 1035px;
+  margin: auto;
+  padding-top: 69px;
+}
+
+.rectangle {
+  display: inline-block;
+  color: white;
+  opacity: 30%;
+  background: transparent;
+  border: 6px solid #FFFFFF;
+  transform: skewX(-25deg); /* Наклон фигуры */
+  width: 258px;
+  height: 131px;
+}
+
+.rectWrapper1 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+
+.rectWrapper1 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.rectWrapper2 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+
+.rectWrapper2 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.rectWrapper3 span:nth-of-type(1) {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: block;
+  margin-left: -26px;
+  margin-top: -197px;
+}
+
+.rectWrapper3 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 61px;
+  margin-top: -23px;
+}
+
+.requestH2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-top: 56px;
+  font-weight: 1000;
+}
+
+/* Форма связи */
+.lendingRequest .wrapper, .lendingRequest .wrapperComment, .lendingRequest .wrapperComment .vadim, .wrapperComment .lendingRequest .vadim {
+  width: 960px;
+  height: 156px;
+  margin: -110px auto;
+  background-color: #ECEDED;
+  border-radius: 8px;
+}
+
+/* Размеры кнопок */
+/* Миксины для кнопок */
+.connectForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 18px;
+  padding-top: 33px;
+  height: 158px;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 40px;
+}
+
+.connectForm span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #484848;
+}
+
+.connectForm input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  width: 240px;
+  height: 45px;
+}
+
+.connectForm input::placeholder {
+  padding-left: 17px;
+}
+
+.connectForm button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #6C6C6C;
+  background-color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  width: 286px;
+  height: 60px;
+  background-color: rgba(17, 140, 200, 0.8);
+}
+
+.nameBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneBlock span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #484848;
+}
+
+.sendRequest {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Inter", sans-serif;
+  color: white !important;
+}
+
+.wrapperRequest {
+  padding-top: 12px;
+  font-weight: 500;
+}
+
+.wrapperRequest span {
+  color: #6C6C6C;
+  font-family: "Gilroymedium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #939191;
+  font-size: 9px;
+  letter-spacing: 0;
+}
+
+.wrapperRequest span ul {
+  margin-top: -13px;
+  margin-left: -20px;
+}
+
+.wrapperRequest span ul li {
+  list-style-type: square;
+}
+
+.wrapperRequest span ul li::marker {
+  font-size: 18px;
+}
+
+/*
+- фильтр фонового изображения
+*/
+/* 3rd page - conditions of credit */
+/* variables */
+/* extends */
+.conditionsBlock .wrapperComment:nth-of-type(1) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(3) h3, .conditionsBlock .wrapperComment:nth-of-type(4) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) h3, .conditionsBlock .wrapper:nth-of-type(4) h3, .conditionsBlock .wrapper:nth-of-type(3) h3, .conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapper:nth-of-type(1) h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1.1px;
+}
+
+.conditionsBlock .wrapperComment:nth-of-type(1) p, .conditionsBlock .wrapperComment:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(3) p, .conditionsBlock .wrapperComment:nth-of-type(4) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) p, .conditionsBlock .wrapper:nth-of-type(4) p, .conditionsBlock .wrapper:nth-of-type(3) p, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(1) p {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
+
+.conditionsBlock .wrapperComment:nth-of-type(1) button, .conditionsBlock .wrapperComment:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(3) button, .conditionsBlock .wrapperComment:nth-of-type(4) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(1) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(1) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) button, .conditionsBlock .wrapper:nth-of-type(4) button, .conditionsBlock .wrapper:nth-of-type(3) button, .conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(1) button {
+  background-color: transparent;
+  border: 2.5px solid white;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  width: 170px;
+  height: 50px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* all properties */
+.conditionsBlock {
+  display: grid;
+  grid-template-columns: 536px 536px;
+  grid-template-rows: repeat(3, 397px);
+  grid-row-gap: 35px;
+  grid-column-gap: 36px;
+  grid-template-areas: "a a" "b c" "b d";
+  margin: 154px auto 0 auto;
+  width: 1110px;
+  height: 1262px;
+}
+
+.conditionsBlock .wrapper, .conditionsBlock .wrapperComment, .conditionsBlock .wrapperComment .vadim, .wrapperComment .conditionsBlock .vadim {
+  margin: 0;
+}
+
+.conditionsBlock .wrapper:nth-of-type(1), .conditionsBlock .wrapperComment:nth-of-type(1), .conditionsBlock .wrapperComment .vadim:nth-of-type(1), .wrapperComment .conditionsBlock .vadim:nth-of-type(1) {
+  margin: 0 0 0 -4px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  width: 1110px;
+  height: 397px;
+  grid-area: a;
+  background-color: rgba(17, 140, 200, 0.8);
+  background-image: url("assets/conditions/gift.png");
+  background-repeat: no-repeat;
+  background-position: 99% 89%;
+  padding: 51px 51px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(2), .conditionsBlock .wrapperComment:nth-of-type(2), .conditionsBlock .wrapperComment .vadim:nth-of-type(2), .wrapperComment .conditionsBlock .vadim:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  grid-area: b;
+  width: 536px;
+  height: 830px;
+  padding: 41px 49px;
+  background-image: url("assets/conditions/womanPercent.png");
+  background-repeat: no-repeat;
+  background-position: -4% 100%;
+}
+
+.conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button, .conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p, .conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3 {
+  color: #4A4A4A;
+}
+
+.conditionsBlock .wrapper:nth-of-type(2) h3, .conditionsBlock .wrapperComment:nth-of-type(2) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) h3 {
+  letter-spacing: 1.5px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(2) p, .conditionsBlock .wrapperComment:nth-of-type(2) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) p {
+  letter-spacing: 0.6px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(2) button, .conditionsBlock .wrapperComment:nth-of-type(2) button, .conditionsBlock .wrapperComment .vadim:nth-of-type(2) button, .wrapperComment .conditionsBlock .vadim:nth-of-type(2) button {
+  border: 2.5px solid #4A4A4A;
+}
+
+.conditionsBlock .wrapper:nth-of-type(3), .conditionsBlock .wrapperComment:nth-of-type(3), .conditionsBlock .wrapperComment .vadim:nth-of-type(3), .wrapperComment .conditionsBlock .vadim:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  grid-area: c;
+  background-color: rgba(17, 140, 200, 0.8);
+  background-image: url("assets/conditions/percent0.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 536px;
+  height: 397px;
+  padding: 45px 48px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(3) h3, .conditionsBlock .wrapperComment:nth-of-type(3) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) h3 {
+  letter-spacing: 1.4px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(3) p, .conditionsBlock .wrapperComment:nth-of-type(3) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(3) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(3) p {
+  letter-spacing: 0.1px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(4), .conditionsBlock .wrapperComment:nth-of-type(4), .conditionsBlock .wrapperComment .vadim:nth-of-type(4), .wrapperComment .conditionsBlock .vadim:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  grid-area: d;
+  width: 536px;
+  height: 397px;
+  background-color: rgba(17, 140, 200, 0.8);
+  background-image: url("assets/conditions/taxi.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 536px;
+  height: 397px;
+  padding: 45px 48px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(4) h3, .conditionsBlock .wrapperComment:nth-of-type(4) h3, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) h3, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) h3 {
+  letter-spacing: 1.4px;
+}
+
+.conditionsBlock .wrapper:nth-of-type(4) p, .conditionsBlock .wrapperComment:nth-of-type(4) p, .conditionsBlock .wrapperComment .vadim:nth-of-type(4) p, .wrapperComment .conditionsBlock .vadim:nth-of-type(4) p {
+  letter-spacing: 0.1px;
+}
+
+/* viriables */
+/* 4th page - comments of clients */
+.avanta {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  margin: 82px auto 0px auto;
+  width: 1110px;
+  height: 633px;
+}
+.avanta h2 {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 11px 0 0;
+}
+
+.wrapperUpper {
+  display: flex;
+  gap: 16px;
+  margin: auto;
+}
+.wrapperUpper .wrapper, .wrapperUpper .wrapperComment .vadim, .wrapperComment .wrapperUpper .vadim, .wrapperUpper .wrapperComment {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  background-color: #FEFEFE;
+  width: 357px;
+  height: 86px;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+}
+.wrapperUpper .wrapper img, .wrapperComment .wrapperUpper .vadim img, .wrapperUpper .wrapperComment img {
+  height: 35px;
+  width: 125px;
+}
+.wrapperUpper .wrapper .recPart, .wrapperComment .wrapperUpper .vadim .recPart, .wrapperUpper .wrapperComment .recPart {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #008000;
+}
+.wrapperUpper .wrapper:nth-child(2), .wrapperUpper .wrapperComment .vadim:nth-child(2), .wrapperComment .wrapperUpper .vadim:nth-child(2), .wrapperUpper .wrapperComment:nth-child(2) {
+  width: 332px;
+  flex-direction: column-reverse;
+}
+
+.caruosel {
+  margin: -15px auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+.caruosel img {
+  height: 50px;
+  width: 50px;
+}
+
+.wrapperComment {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  width: 997px;
+  height: 380px;
+}
+.wrapperComment h3 {
+  display: flex;
+  width: 467px;
+  min-height: 55px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: -50px 0 10px 19px;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  padding: 16px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #128DC9;
+}
+.wrapperComment p {
+  margin: 10px 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.wrapperComment .wrapper, .wrapperComment .vadim, .wrapperComment .wrapperComment {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+  width: 503px;
+}
+.wrapperComment .assessment {
+  display: flex;
+  margin: 74px 19px;
+  gap: 33px;
+}
+.wrapperComment .assessment img {
+  height: 19px;
+  width: initial;
+}
+.wrapperComment .assessment time {
+  color: #303030;
+  font-weight: 200;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+.wrapperComment .vadim {
+  height: 294px;
+  width: initial;
+  box-shadow: 0px 4px 10px 0px #9E9898;
+  margin: 42px auto 0 auto;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

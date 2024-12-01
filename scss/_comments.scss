@@ -1,0 +1,143 @@
+@use 'header.scss';
+@use 'lendingRequest.scss';
+@use 'carsGiftsPart';
+
+/* viriables */
+$backgroundColorWrapper: #FEFEFE;
+$dateColorFont: #303030;
+$nameColorFont: #128DC9;
+$recColor: #008000;
+
+$widthWrapper: 357px;
+$heightWrapper: 86px;
+
+/* 4th page - comments of clients */
+
+.avanta {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin: 82px auto 0px auto;
+    width: 1110px;
+    height: 633px;
+    h2 {
+        @include fontHeaderOfText;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+        margin: 0 11px 0 0;
+    }
+}
+.wrapperUpper {
+    display: flex;
+    gap: 16px;  
+    margin: auto;
+    .wrapper {
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font: {
+            size: 16px;
+            weight: 400;
+        }
+        img {
+            height: 35px;
+            width: 125px;
+        }
+        margin: 0;
+        background-color: $backgroundColorWrapper;
+        width: $widthWrapper;
+        height: $heightWrapper;
+        box-shadow: header.$boxShadow;
+        .recPart {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            font: {
+                size: 16px;
+                weight: 400;
+            }
+            color: $recColor;
+        }
+    }
+    .wrapper:nth-child(2) {
+        width: 332px;
+        flex-direction: column-reverse;
+    }
+}
+.caruosel {
+    margin: -15px auto 0 auto;
+    display: flex;
+    align-items: center;
+    img {
+        height: 50px;
+        width: 50px;
+        //clip-rule: ;
+        //box-shadow: header.$boxShadow;
+    }
+}
+.wrapperComment {
+    display: flex;
+    align-items: center;
+    h3 {
+        display: flex;
+        width: 467px;
+        min-height: 55px;
+        border-radius: header.$borderRadius;
+        background-color: #fff;
+        margin: -50px 0 10px 19px;
+        box-shadow: header.$boxShadow;
+        padding: 16px;
+        font: {
+            size: 18px;
+            family: 'Oswald', sans-serif;
+            weight: 600;
+        }
+        color: $nameColorFont;
+    }
+    p {
+        margin: 10px 20px;
+        font: {
+            size: 17px;
+            weight: 400;
+        }
+        line-height: 21px;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;//20px 9px;
+        width: 421px + 21px*2 + 40px;
+    }
+    @extend .wrapper;
+    margin: 0 auto 0 auto;
+    width: 997px;
+    height: 380px;
+    .assessment {
+        display: flex;
+        margin: 74px 19px;
+        img {
+            height: 19px;
+            width: initial;
+        }
+        gap: 33px;
+        time {
+            color: $dateColorFont;
+            font: {
+                weight: 200;
+                size: 18px;
+                family: 'Oswald', sans-serif;
+            }
+        }
+    }
+    .vadim {
+        height: 294px;
+        width: initial;
+        @extend .wrapper;
+        box-shadow: header.$boxShadow;
+        margin: 42px auto 0 auto;
+        align-items: center;
+    }
+}
